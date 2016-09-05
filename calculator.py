@@ -115,7 +115,6 @@ class Calculator(ttk.Frame):
 			else:
 				new_val = current_value
 
-		# new_val = new_val or ''
 		self.calc_value.set(new_val)
 
 	def __str__(self):
