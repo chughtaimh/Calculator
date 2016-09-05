@@ -125,7 +125,7 @@ class Calculator(ttk.Frame):
 		new_text = ''
 		for i, char in enumerate(text):
 			try:
-				last_char = text[i-1:i][0]
+				last_char = text[i-1]
 				if (last_char in Calculator.MATH) | (last_char in Calculator.PARENS):
 					if char == '0':
 						continue
