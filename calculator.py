@@ -134,8 +134,6 @@ class Calculator(ttk.Frame):
 			new_text = new_text + char
 		return new_text.lstrip('0')
 
-		return text.lstrip('0')
-
 
 root = Calculator()
 root.mainloop()
