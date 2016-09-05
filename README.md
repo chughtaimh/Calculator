@@ -8,3 +8,5 @@ After continuously going to Google for exponent calculations, I decided to build
 
 <img src="https://github.com/chughtaimh/Calculator/blob/images/Operation.PNG">
 <img src="https://github.com/chughtaimh/Calculator/blob/images/Solution.PNG">
+
+The calculator takes inputs in the form of button clicks and keyboard entries.
