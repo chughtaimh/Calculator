@@ -81,8 +81,6 @@ class Calculator(ttk.Frame):
 	def key_press(self, key):
 		if key in Calculator.ALL_CHARS:
 			self.button_click(key)
-		elif key == '\n':
-			self.button_click('=')
 
 	def button_click(self, text):
 		current_value = self.calc_value.get()
